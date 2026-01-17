@@ -1,0 +1,97 @@
+.filters-group-container {
+  margin-top: 16px;
+}
+
+.employment-types-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 24px;
+  padding-top: 34px;
+  border-top: 3px solid #64748b;
+}
+
+.employment-types-list {
+  padding-left: 0;
+}
+
+.employment-type-item {
+  list-style-type: none;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.employment-type-name {
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.salary-ranges-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 18px;
+  padding-top: 34px;
+  border-top: 3px solid #64748b;
+}
+
+.salary-ranges-list {
+  padding-left: 0px;
+}
+
+.salary-range-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.salary-ranges-list input[type='radio'] {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.salary-ranges-list label {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: #f8fafc;
+  font-family: 'Roboto';
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.salary-ranges-list input[type='radio'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  margin-right: 8px;
+  position: relative;
+}
+
+.salary-ranges-list input[type='radio']:checked {
+  background-color: #0b69ff;
+  border-color: #0b69ff;
+}
+
+.salary-ranges-list input[type='radio']:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: white;
+}

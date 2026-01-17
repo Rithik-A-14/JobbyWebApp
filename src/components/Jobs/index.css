@@ -1,0 +1,6 @@
+.jobs-page-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 90%;
+}
